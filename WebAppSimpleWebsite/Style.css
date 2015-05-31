@@ -1,0 +1,95 @@
+﻿body {
+    font-family: 'Lora', serif;
+}
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+    
+    /*height: 200px;
+    background: green;*/
+}
+header {
+    width: 960px;
+    float: left;
+}
+.logo {
+    width: 500px;
+    height: 100px;
+    background: green;
+    float: left;
+}
+.banner {
+    width: 460px;
+    height: 100px;
+    background: chocolate;
+    float: left;
+}
+nav {
+    width: 960px;
+    float: left;
+}
+nav ul {
+    
+}
+nav ul li {
+    display: inline;
+    
+}
+nav ul li a {
+    width: 190px;
+    background: cornflowerblue;
+    display: inline-block;
+    float: left;
+    border: 1px solid black;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 0;
+    color: white;
+    text-transform: uppercase;
+}
+nav ul li a:hover {
+    background: white;
+    color: cornflowerblue;
+}
+.container {
+    width: 960px;
+    float: left;
+}
+.content {
+    width: 700px;
+    float: left;
+}
+aside {
+    width: 260px;
+    float: left;
+}
+.content article {
+    width: 678px;
+    border: 1px solid black;
+    padding: 0 10px;
+}
+.content article h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+aside section {
+    width: 258px;
+    border: 1px solid black;
+}
+aside section h1 {
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+aside section p {
+    border-bottom: 1px solid black;
+    padding: 5px 0;
+}
+footer {
+    width: 960px;
+    background: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    clear: both;
+}
